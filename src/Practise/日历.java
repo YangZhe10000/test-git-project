@@ -23,5 +23,6 @@ public class 日历 {
         System.out.println(year+"年"+month+"月的日历\n 日 一 二 三 四 五 六");
         if(week>0)
             System.out.println(String.format("%"+4*week+"c",' '));
+        System.out.println(year);
     }
 }
